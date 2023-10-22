@@ -1,6 +1,36 @@
-###About me
+### About me
 ![스크린샷 2023-10-22 오후 10 37 01](https://github.com/MuinMusic/MuinMusic/assets/112970256/5c3e181b-1c23-4468-9fb4-267c2bb30625)
 
+
+<pre><code>
+@Builder
+class Member {
+    String name;
+    String job;
+    String developmentFields;
+    String languages;
+    List<String> backendSkills;
+    List<String> devOpsSkills;
+    List<String> collaborationTools;
+    List<String> interests;
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Member dongpil = Member.builder()
+                .name("손동필")
+                .job("Software engineer")
+                .developmentFields("Back-end")
+                .languages("java")
+                .backendSkills(Arrays.asList("Spring", "JPA", "MyBatis", "Junit5", "Gradle"))
+                .devOpsSkills(Arrays.asList("Ubuntu", "Github Actions", "MySQL", "Docker", "AWS EC2"))
+                .collaborationTools(Arrays.asList("Slack", "Notion", "Github", "Intellij"))
+                .build();
+    }
+}
+
+  
+</code></pre>
 
 <!--
 **sdongpil/sdongpil** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
