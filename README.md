@@ -1,3 +1,5 @@
+###About me
+![스크린샷 2023-10-22 오후 10 37 01](https://github.com/MuinMusic/MuinMusic/assets/112970256/5c3e181b-1c23-4468-9fb4-267c2bb30625)
 
 
 <!--
