@@ -3,6 +3,12 @@
 
 
 ```java
+package com.example.introduction;
+
+import lombok.Builder;
+
+import java.util.Arrays;
+import java.util.List;
 @Builder
 class Member {
     String name;
