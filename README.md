@@ -26,8 +26,8 @@ public class Main {
                 .job("Software engineer")
                 .developmentFields("Back-end")
                 .languages("java")
-                .backendSkills(Arrays.asList("Spring", "JPA", "MyBatis", "Junit5", "Gradle"))
-                .devOpsSkills(Arrays.asList("Ubuntu", "Github Actions", "MySQL", "Docker", "AWS EC2"))
+                .backendSkills(Arrays.asList("Java", "Spring", "JPA", "MyBatis", "Junit5", "Gradle"))
+                .devOpsSkills(Arrays.asList("Ubuntu", "Github Actions", "Oracle", "MySQL", "Docker", "AWS EC2"))
                 .collaborationTools(Arrays.asList("Slack", "Notion", "Github", "Intellij"))
                 .build();
     }
