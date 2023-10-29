@@ -27,7 +27,7 @@ public class Main {
                 .developmentFields("Back-end")
                 .languages("java")
                 .backendSkills(Arrays.asList("Java", "Spring", "JPA", "MyBatis", "Junit5", "Gradle", "Oracle", "MySQL"))
-                .devOpsSkills(Arrays.asList("jenkins", "Docker", "AWS EC2"))
+                .devOpsSkills(Arrays.asList("Jenkins", "Docker", "AWS"))
                 .collaborationTools(Arrays.asList("Slack", "Github", "Intellij"))
                 .build();
     }
