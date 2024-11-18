@@ -7,31 +7,28 @@ import lombok.Builder;
 
 import java.util.Arrays;
 import java.util.List;
+@Getter
 @Builder
-class Member {
-    String name;
-    String job;
-    String developmentFields;
-    String languages;
-    List<String> backendSkills;
-    List<String> devOpsSkills;
-    List<String> collaborationTools;
-    List<String> interests;
-}
+public class Developer {
+        private String name;
+        private String dream;
+        private String developmentFields;
+        private String languages;
+        private List<String> backendSkills;
+        private List<String> devOpsSkills;
+        private List<String> hobby;
 
-public class Main {
-    public static void main(String[] args) {
-        Member dongpil = Member.builder()
-                .name("손동필")
-                .job("Software engineer")
-                .developmentFields("Back-end")
-                .languages("java")
-                .backendSkills(Arrays.asList("Java", "Spring", "JPA", "MyBatis", "Junit5", "Gradle", "Oracle", "MySQL"))
-                .devOpsSkills(Arrays.asList("Jenkins", "Docker", "AWS"))
-                .collaborationTools(Arrays.asList("Slack", "Github", "Intellij"))
+    public static Developer introduce() {
+        return Developer.builder()
+                .name("Dongpil Son")
+                .dream("IFBB PRO")
+                .developmentFields("BackEnd")
+                .languages("Java")
+                .backendSkills(Arrays.asList("Java", "Spring", "JPA", "MyBatis", "Redis", "MySQL"))
+                .devOpsSkills(Arrays.asList("AWS","Jenkins","Docker"))
+                .hobby(Arrays.asList("bodybuilding","ProteinIntake"))
                 .build();
     }
-}
 ```
   
 </code></pre>
